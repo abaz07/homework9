@@ -38,5 +38,11 @@ public class Main {
         float AverageAmountSpentPerMonth = 0;
         AverageAmountSpentPerMonth = (float) sum /arr.length;
         System.out.println("Средняя сумма трат за месяц составила " + AverageAmountSpentPerMonth + " рублей");
+        //Задача 4
+        System.out.println("Задача 4");
+        char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+        for(int i = reverseFullName.length - 1; i>=0; i--){
+            System.out.print(reverseFullName[i] + " ");
+        }
     }
 }
